@@ -10,17 +10,17 @@ spring:
           skipSslValidation: true
           search-paths: '{profile}/common, {profile}/{application}'
 # TODO: enable bus
-#    bus:
-#      enabled: true
-#      trace:
-#       enabled: true
+    bus:
+      enabled: true
+      trace:
+       enabled: true
 
 #TODO: config a rabbitmq
-#  rabbitmq:
-#    host: localhost
-#    port: 5672
-#    username: guest
-#    password: guest
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 
 eureka:
   instance:
